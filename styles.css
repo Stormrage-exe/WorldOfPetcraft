@@ -28,10 +28,16 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
-    background-color: #323232;
     background-size: 65px;
     color: #89CFF0;
-    background-image: var(--body-bg-image);
+    display: grid;
+    place-items: center;
+    background-image: url("https://shorturl.at/8GF10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 * {
@@ -39,39 +45,43 @@ body {
 }
 
 #container {
-    max-width: 900px;
-    
+    max-width: 800px;
     margin: 0 auto;
-
+   position:relative;
+   
 }
 
+#logo{
+    max-width: 100%; 
+    max-height: 100%; 
+    height:500px;
+    width: 400px;
+    right:24%;
+    top:-30px;
+    position: absolute;
+}
 
 #container a {
     color: #89CFF0;
     font-weight: bold;
-    /* if you want to remove the underline
-you can add a line below here that says:
-text-decoration:none; */
+     
+    
 }
 
 #header {
-    width: 100%;
     background-color: #89CFF0;
-    /* header color here! */
+    width:800px;  
     height: 150px;
-    /* this is only for a background image! */
-    /* if you want to put images IN the header, 
-you can add them directly to the <div id="header"></div> element! */
-    background-image: var(--header-image);
-    background-size: 100%;
+     
 }
 
-/* navigation section!! */
+
 #navbar {
     height: 40px;
     background-color: #323232;
     /* navbar color */
     width: 100%;
+    
 }
 
 #navbar ul {
@@ -92,7 +102,7 @@ you can add them directly to the <div id="header"></div> element! */
     /* navbar text color */
     font-weight: 800;
     text-decoration: none;
-    /* this removes the underline */
+    
 }
 
 
@@ -111,23 +121,35 @@ aside {
     width: 200px;
     padding: 20px;
     font-size: smaller;
-
+ height:750px;
 }
 
 
 main {
-    background-color:#4f4f4f;
     flex: 1;
-    padding: 20px;
     order: 2;
+    width:1200px;  
+  
+}
+
+#PETSS{
+    background-color:white;
+    height:733px;
+    padding-top:10px;
+    padding-bottom: 740px; 
 }
 
 */ #leftSidebar {
     order: 1;
+
+
+
 }
 
 #rightSidebar {
     order: 3;
+    
+   
 }
 
 footer {
@@ -136,12 +158,13 @@ footer {
     height: 40px;
     padding: 10px;
     text-align: center;
-   
+    
 }
 
 h1,
 h2,
 h3 {
+    
     color: #89CFF0;
 }
 
@@ -150,7 +173,7 @@ h1 {
 }
 
 strong {
-    
+ 
     color: #89CFF0;
 }
 
@@ -159,6 +182,7 @@ strong {
     background-color: #323232;
     border: 1px solid #89CFF0;
     padding: 10px;
+    
 }
 
 
@@ -181,4 +205,3 @@ strong {
     aside {
         width: 100%;
     }
-
