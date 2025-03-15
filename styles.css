@@ -26,10 +26,11 @@
 }
 
 button {
-    margin-right: 3px;
+    display:
+    margin-right: 10px;
     background-color:#0d5cc4;
     border:3px solid #0d5cc4;
-    margin-top: 46px;
+    margin-top: 45px;
     transition: all 0.3s ease-in-out;
 }
 
