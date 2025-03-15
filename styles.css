@@ -25,6 +25,13 @@
     font-weight: bold;
 }
 
+button {
+    margin-right: 3px;
+    background-color:#0d5cc4;
+    border:3px solid #0d5cc4;
+    margin-top: 46px;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -221,3 +228,5 @@ strong {
     aside {
         width: 100%;
     }
+
+ 
