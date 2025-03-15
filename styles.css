@@ -30,6 +30,12 @@ button {
     background-color:#0d5cc4;
     border:3px solid #0d5cc4;
     margin-top: 46px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color:black;
+    transform: scale(1.1);
 }
 
 body {
