@@ -25,12 +25,12 @@
     font-weight: bold;
 }
 
+
 button {
-    display:
-    margin-right: 10px;
+    margin: auto;
+    margin-top: 45px;
     background-color:#0d5cc4;
     border:3px solid #0d5cc4;
-    margin-top: 45px;
     transition: all 0.3s ease-in-out;
 }
 
