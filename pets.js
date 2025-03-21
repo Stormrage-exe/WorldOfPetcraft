@@ -12,7 +12,7 @@ const pets = [
     {
         id: ,
         name: "",
-        type: Spirit Beast",
+        type: "",
         expansion: "",
         level: "",
         location: "",
