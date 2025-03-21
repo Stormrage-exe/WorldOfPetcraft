@@ -13,7 +13,7 @@ const pets = [
         { expansion: "Mists of Pandaria", place: "Ahn'Qiraj: The Fallen Kingdom, Silithus", level: "30" }
         
     ],
-        img: "https://www.wow-petopia.com/images/skin_pix/silithidtankskintan.jpg"
+        img: ""
     },
     {
         id: ,
